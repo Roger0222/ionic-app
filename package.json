@@ -1,9 +1,9 @@
 {
-  "name": "it35-lab",
+  "name": "ionic-app",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://Roger0222.github.io/it35-lab",
+  "homepage": "https://Roger0222.github.io/ionic-app",
   "scripts": {
     "predeploy":"npm run build",
     "deploy":"gh-pages -d dist",
