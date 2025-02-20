@@ -19,6 +19,7 @@ import { Redirect, Route } from 'react-router';
 import Home from './Home';
 import About from './About';
 import Details from './details';
+import Info from './Info';
 
 
   const Menu: React.FC = () => {
@@ -63,6 +64,7 @@ import Details from './details';
                     <Route exact path="/ionic-app/app/home" component={Home} />
                     <Route exact path="/ionic-app/app/about" component={About} />
                     <Route exact path="/ionic-app/app/details" component={Details} />
+                    <Route exact path="/ionic-app/app/info" component={Info} />
 
                     <Route exact path="/ionic-app/app">
                         <Redirect to="/ionic-app/app/home"/>
